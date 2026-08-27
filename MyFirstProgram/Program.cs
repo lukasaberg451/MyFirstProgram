@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int nummer = 6;
+
+            if (nummer > 10)
+            {
+                Console.WriteLine("Talet är stort!");
+            }
+            else
+            {
+                Console.WriteLine("Oj. Lågt tal!");
+            }
+
+            Console.WriteLine("Vad heter du?");
+            string namn = Console.ReadLine();
+            Console.WriteLine("Hej, " + namn + "!");
+
         }
     }
 }
