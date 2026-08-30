@@ -6,6 +6,7 @@
         {
             int nummer = 6;
 
+            // IF/ELSE to check if the number is greater than 10
             if (nummer > 10)
             {
                 Console.WriteLine("Talet är stort!");
